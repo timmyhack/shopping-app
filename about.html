@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us Section</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/timmy.png" width="200px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href=>Products</a></li>
+                        <li><a href=>Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div>
+                    <h1 class="title">About Us</h1>
+                </div>
+                <div class="content">
+                    <h3>A Little Info About Our Website</h3>
+                    <p>Timmy's istore is a company thats sells smartphones such as iphones, ipad
+                        and also sells accessories such as apple watch, mac book and home pod mini.
+                        You can locate us at Accra,Spintex road(Palace mall)
+                        </p>
+                    <div class="button">
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </div>
+
+
+    <!------- footer ----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/hello.png">
+                    <p>Our Purpose is to make Technology such as smartphone,Gadgets etc.
+                        Easy to use and feel its Pleasure. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                        <li>Blog Post</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Timmys Istore</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .section {
+        width: 100%;
+        min-height: 100vh;
+        background: radial-gradient(#fff, #ffd6d6);
+    }
+
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+
+    }
+
+    .content-section {
+        float: left;
+        width: 50%;
+    }
+
+    .image-section {
+        float: right;
+        width: 40%;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-section .content h3 {
+        margin-top: 20px;
+        color: #5d5d5d;
+        font-size: 21px;
+    }
+
+    .content-section .content p {
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .content-section .content .button {
+        margin-top: 30px;
+    }
+
+    .content-section .content .button a {
+        background: grey;
+        padding: 12px 40px;
+        text-decoration: none;
+        color: rgb(53, 49, 49);
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    .content-section .content .button a:hover {
+        background-color: #a52a2a;
+        color: #fff;
+    }
+
+    .content-section .social {
+        margin: 40px 40px;
+    }
+
+    .content-section .social i {
+        color: #a52a2a;
+        font-size: 30px;
+        padding: 0px 10px;
+    }
+
+    .content-section .social i:hover {
+        color: #3d3d3d;
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 50px;
+        }
+
+        .content-section {
+            float: none;
+            width: 100%;
+            display: block;
+            margin: auto;
+        }
+
+        .image-section {
+            float: none;
+            width: 100%;
+
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .content-section .title {
+            text-align: center;
+            font-size: 19px;
+        }
+
+        .content-section .content .button {
+            text-align: center;
+        }
+
+        .content-section .content .button a {
+            padding: 9px 30px;
+        }
+
+        .content-section .social {
+            text-align: center;
+        }
+
+    }
