@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIMMY'S ISTORE</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Timmy's istore</h2>
+            <div class="toggle ">
+            </div>
+        </header>
+        <video src="video.mp4" muted loop autoplay></video>
+        <div class="overlay">
+
+        </div>
+        <div class="text">
+            <h2>SWITCH NOW TO IOS</h2>
+            <h3>Life Is Easy Here</h3>
+            <p>The iPhone is a smartphone made by Apple that combines a computer, iPod, digital camera and cellular
+                phone
+                into one device with a touchscreen interface.
+                steve Jobs Ex-CEO of Apple comapny introduced the iPhone as a combination of three devices,
+                a "widescreen iPod with touch controls" a "revolutionary mobile phone"
+                and a "breakthrough Internet communicator".</p>
+            <a href="C:\Users\isawu\OneDrive\Desktop\web project\index.html">Explore </a>
+
+        </div>
+
+        <ul class="social">
+            <li><a href=" https://web.facebook.com/" target="_blank"><img src="facebook.png" alt="" /></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Sebasta24181936" target="_blank"><img src="twitter.png" alt="" /></a>
+            </li>
+            <li>
+                <a href=" https://www.instagram.com/timmys_istore/" target="_blank"><img src="instagram.png"
+                        alt="" /></a>
+            </li>
+
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li> <a href="C:\Users\isawu\OneDrive\Desktop\web project\index.html"> Home</a></li>
+            <li> <a href="C:\Users\isawu\OneDrive\Desktop\web project\about.html"> About</a></li>
+            <li> <a href="https://appletrack.com/"> News</a></li>
+
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
